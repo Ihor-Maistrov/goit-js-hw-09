@@ -16,3 +16,80 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+button {
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-link {
+  cursor: url("../bxs_hand-down.svg"), auto;
+}
+
+.modal {
+  background: rgba(46, 47, 66, 0.8);
+  width: 1440px;
+  height: 696px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-form {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.email {
+  width: 360px;
+  height: 40px;
+}
+
+.message {
+  width: 360px;
+  height: 80px;
+}
+
+.email:hover .message:hover {
+  border-color: black;
+}
+
+.submit {
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.submit:hover {
+  background: #6c8cff;
+}
